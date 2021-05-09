@@ -2,11 +2,11 @@
 ## _Grupo #_ 
 
 ## Integrantes
--- Xiomara Correa - (k.correa@uniandes.edu.co)
--- Alberto Chica - (a.chica@uniandes.edu.co)
--- Jhon Cuesta - (j.cuestaa@uniandes.edu.co)
--- Ricardo Matiz - (rmatizc@uniandes.edu.co)
--- Nilson Parra - (n.parram@uniandes.edu.co)
+Xiomara Correa - (k.correa@uniandes.edu.co)</br>
+Alberto Chica - (a.chica@uniandes.edu.co)</br>
+Jhon Cuesta - (j.cuestaa@uniandes.edu.co)</br>
+Ricardo Matiz - (rmatizc@uniandes.edu.co)</br>
+Nilson Parra - (n.parram@uniandes.edu.co)
 
 ## Funcionalidades bajo pruebas
 
