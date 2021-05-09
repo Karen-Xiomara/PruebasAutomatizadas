@@ -44,7 +44,7 @@
 - Escenario 23: Crear y eliminar TAG
 - Escenario 24: Crea una página en estado borrador
 - Escenario 25:
-- 
+
 ## Instrucciones de ejecucion para Cypress 
 - Instalar las aplicaciones NodeJs y Ghost en las versiones compatibles
 - Crear el siguiente usuario en Ghost: email: j.cuestaa@uniandes.edu.co y password: hqlDIOPN9j
@@ -69,5 +69,5 @@
 - Crear un directorio local
 - Clonar el repositorio en el directorio creado
 - Copiar a la carpeta features del proyecto Kraken los archivos .features que se encuentran en la carpeta Kraken del repositorio clonado
-- Para ejecutar las pruebas, en una consola de comandos ejecutar el siguiente comando: bundle exec kraken-mobile run  
+- Para ejecutar las pruebas, en una consola de comandos ejecutar el siguiente comando: kraken-mobile run (agregar bundle exec si la máquina es linux)  
 - Verificar que durante las pruebas se puede ingresar de manera correcta el usuario y password a la aplicación Ghost
