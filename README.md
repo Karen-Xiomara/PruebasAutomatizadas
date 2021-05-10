@@ -43,7 +43,7 @@ Nilson Parra - (n.parram@uniandes.edu.co)
 - Escenario 22: Modificar configuraciones del portal (settings)
 - Escenario 23: Crear y eliminar TAG
 - Escenario 24: Crea una página en estado borrador
-- Escenario 25:
+- Escenario 25: Invitar a colaboradores 
 
 ## Instrucciones de ejecucion para Cypress 
 - Instalar las aplicaciones NodeJs y Ghost en las versiones compatibles
