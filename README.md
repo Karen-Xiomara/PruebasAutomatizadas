@@ -58,7 +58,7 @@ Nilson Parra - (n.parram@uniandes.edu.co)
 - Copiar y reemplazar en la carpeta support el archivo index.js que se encuentra en la carpeta Cypress del repositorio clonado
 - Abrir una terminal y ejecutar el comando npm install -D cypress-xpath
 - Ejecutar desde la interfaz de Cypress los archivos .spec.js
-- Verificar que durante las pruebas se puede ingresar de manera correcta el usuario y password a la aplicación Ghost
+- Verificar que durante las pruebas se puede ingresar de manera correcta el usuario y password a la aplicación Ghost NOTA: los escenarios del 21 al 25 se encuentran en un solo archivo, el nombre es Escenarios_21-25_ghost3.spec.js y se encuentra en la carpeta Cypress. Para los demás existe un archivo por escenario.
 
 ## Instrucciones de ejecucion para Kraken 
 - Instalar Kraken en una máquina física
