@@ -104,3 +104,13 @@ Nilson Parra - (n.parram@uniandes.edu.co)
 - Notar que el reporte HTML contiene 10 escenarios de las funcionalidades
 NOTA: el código para la generación del reporte HTML se encuentra en el archivo index.js, usando una configuración del archivo config.json
 
+## Instrucciones para Ejecución de BackStop
+- Abrir una terminal e instalar backstop con el comando npm install -g backstopjs
+- Ingresar al repositorio https://github.com/Karen-Xiomara/PruebasAutomatizadas.git
+- Clonar el repositorio en un directorio de su preferencia
+- En el repositorio clonado abrir la carpeta regressionReportBackstop y abrir una terminal en dicha carpeta
+- Ejecutar el comando backstop reference para establecer las imágenes de referencia
+- Ejecutar el comando backstop test para ejecutar backstop
+- Ver el reporte HTML en la ruta backstop_data\html_report\index.html
+- Notar que el reporte HTML contiene 1 escenario de las funcionalidades (Para un total de 11 escenarios con los de Resemble)
+NOTA: el código para la generación del reporte HTML se encuentra en el archivo backstop.json
