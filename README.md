@@ -101,5 +101,6 @@ Nilson Parra - (n.parram@uniandes.edu.co)
 - Reemplazar los archivos copiados en la carpeta en la que se encuentra el proyecto de Resemble
 - Desde una linea de comandos y ubicarse en el directorio del proyecto Resemble y ejecutar la herramienta con el comando node index.js
 - Ver el reporte HTML creado en la carpeta report y buscar allí la carpeta que corresponda con la fecha y hora de la última ejecución 
+- Notar que el reporte HTML contiene 10 escenarios de las funcionalidades
 NOTA: el código para la generación del reporte HTML se encuentra en el archivo index.js, usando una configuración del archivo config.json
 
