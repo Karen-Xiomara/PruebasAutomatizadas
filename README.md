@@ -84,14 +84,14 @@ Nilson Parra - (n.parram@uniandes.edu.co)
 - Abrir el directorio creado desde una terminal de linea de comandos
 - Abrir cypress con el comando cypress open
 - Ingresar a la carpeta Integrations
-- Copiar a la carpeta Integrations los archivos .spec.js que se encuentran en la carpeta EscenariosConScreenShots del repositorio clonado
+- Copiar a la carpeta Integrations los archivos .spec.js que se encuentran en la carpeta EscenariosConScreenShots dentro de la carpeta de las versiones 330 y 345 del repositorio clonado
 - Copiar y reemplazar en la carpeta support el archivo index.js que se encuentra en la carpeta Cypress del repositorio clonado
 - Abrir una terminal y ejecutar el comando npm install -D cypress-xpath
 - Ejecutar desde una terminal ubicada en la raíz del proyecto cypress los archivos .spec.js
 - Verificar que durante las pruebas se puede ingresar de manera correcta el usuario y password a la aplicación Ghost.
 
 ## Instrucciones para Ejecución de Resemble
-NOTA: el código para la generación del reporte HTML se encuentra en el archivo index.js, usando una configuración del archivo config.json
+
 - Ingresar al repositorio https://github.com/Karen-Xiomara/PruebasAutomatizadas.git
 - Clonar el repositorio en un directorio de su preferencia
 - Crear un directorio local
@@ -101,3 +101,5 @@ NOTA: el código para la generación del reporte HTML se encuentra en el archivo
 - Reemplazar los archivos copiados en la carpeta en la que se encuentra el proyecto de Resemble
 - Desde una linea de comandos y ubicarse en el directorio del proyecto Resemble y ejecutar la herramienta con el comando node index.js
 - Ver el reporte HTML creado en la carpeta report y buscar allí la carpeta que corresponda con la fecha y hora de la última ejecución 
+NOTA: el código para la generación del reporte HTML se encuentra en el archivo index.js, usando una configuración del archivo config.json
+
