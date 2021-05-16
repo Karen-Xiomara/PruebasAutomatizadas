@@ -7,18 +7,21 @@
 describe('Home Page', () => {
   
   beforeEach(() => {
-    cy.visit('http://localhost:2369/ghost/#/signin')
-    cy.screenshot('v345/Escenario3/escenario')
-    cy.get('.email.ember-text-field.gh-input.ember-view').type('j.cuestaa@uniandes.edu.co')
-    cy.screenshot('v345/Escenario3/escenario')
-    cy.get('.password.ember-text-field.gh-input.ember-view').type('hqlDIOPN9j')
-    cy.screenshot('v345/Escenario3/escenario')
+    cy.visit('http://localhost:2368/ghost/#/signin')
+    cy.screenshot('v345/Escenario5/escenario')
+    cy.get('.email.ember-text-field.gh-input.ember-view').type('a.chica@uniandes.edu.co')
+    cy.screenshot('v345/Escenario5/escenario')
+    cy.get('.password.ember-text-field.gh-input.ember-view').type('CICAJC05lv$')
+    cy.screenshot('v345/Escenario5/escenario')
     cy.get('.login.gh-btn.gh-btn-blue.gh-btn-block.gh-btn-icon.ember-view').click()
-    cy.screenshot('v345/Escenario3/escenario')
+    cy.screenshot('v345/Escenario5/escenario')
   })  
 
-  it('Home Page', () => {    
+  it('Home Page', () => {
+    
       cy.wait(1000)  
-      cy.screenshot('v345/Escenario3/escenario')    
-  })  
+      cy.screenshot('v345/Escenario5/escenario')
+    
+  })
+  
 })  
