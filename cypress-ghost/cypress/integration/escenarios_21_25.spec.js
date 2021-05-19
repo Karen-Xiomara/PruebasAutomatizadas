@@ -27,7 +27,7 @@ describe('Modificar campos del perfil de usuario.', () => {
 
     // Escenario: Actualizar los campos location, website, Facebook profile,
     // Twitter profile y Bio, con datos generados con Faker
-    it('Actualiza perfil de usuario con datos generados por Faker.', () => {
+    it.skip('Actualiza perfil de usuario con datos generados por Faker.', () => {
       Cypress.on('uncaught:exception', (err, runnable) => {
         // returning false here prevents Cypress from
         // failing the test
@@ -55,7 +55,7 @@ describe('Modificar campos del perfil de usuario.', () => {
     // ingresando un valor invalido, esperar mensaje indicando: 
     // Website is not a valid url
     // hacer reload de pagina para evitar modal de salvar
-    it('Actualiza perfil de usuario con campo website invalido.', () => {
+    it.skip('Actualiza perfil de usuario con campo website invalido.', () => {
       Cypress.on('uncaught:exception', (err, runnable) => {
         // returning false here prevents Cypress from
         // failing the test
@@ -78,7 +78,7 @@ describe('Modificar campos del perfil de usuario.', () => {
 
     // Escenario: Actualizar campo Bio del perfil del usuario
     // ingresar texto con mas de 200 caracteres
-    it('Actualiza perfil de usuario campo Bio excede logitud permitida.', () => {
+    it.skip('Actualiza perfil de usuario campo Bio excede logitud permitida.', () => {
       Cypress.on('uncaught:exception', (err, runnable) => {
         // returning false here prevents Cypress from
         // failing the test
@@ -91,6 +91,43 @@ describe('Modificar campos del perfil de usuario.', () => {
       cy.get('textarea[id="user-bio"]').click({force: true}).type('{selectall}').type(faker.lorem.paragraphs())
       cy.get('input[id="user-twitter"]').click({force: true})
       cy.xpath('/html/body/div[2]/div/main/section/section/div/form[1]/div/fieldset/div[8]/p[1]').should('not.have.attr', 'hidden')
+      
+      // descartar los cambios
+      cy.xpath('/html/body/div[2]/div/nav[1]/section/div[1]/ul[2]/li[5]/a').click({force: true})
+      cy.wait(500)
+      cy.xpath('/html/body/div[4]/div[2]/div/div/div/div[2]/section/div[2]/button[2]').click({force: true})
+    
+    });
+
+    it('Actualiza perfil de usuario campo Name con caracteres especiales.', () => {
+      Cypress.on('uncaught:exception', (err, runnable) => {
+        // returning false here prevents Cypress from
+        // failing the test
+        return false
+      })
+      
+      cy.xpath('/html/body/div[2]/div/nav[1]/section/div[2]/div[1]').click()
+      cy.xpath('/html/body/div[1]/div/ul/li[4]/a').click()
+
+      cy.xpath('/html/body/div[2]/div/main/section/section/div/form[1]/div/fieldset/div[1]/input').click({force: true}).type('{selectall}').type(faker.datatype.string())
+
+      cy.xpath('/html/body/div[2]/div/main/section/header/section/button').click()
+      cy.xpath('/html/body/div[2]/div/main/section/header/section/button').should('have.class', 'gh-btn-green')
+    });
+
+    it('Actualiza perfil de usuario campo Name con caracteres especiales.', () => {
+      Cypress.on('uncaught:exception', (err, runnable) => {
+        // returning false here prevents Cypress from
+        // failing the test
+        return false
+      })
+      
+      cy.xpath('/html/body/div[2]/div/nav[1]/section/div[2]/div[1]').click()
+      cy.xpath('/html/body/div[1]/div/ul/li[4]/a').click()
+
+      // campo email
+      cy.xpath('/html/body/div[2]/div/main/section/section/div/form[1]/div/fieldset/div[3]/input').click({force: true}).type('{selectall}').type(faker.datatype.string())
+      cy.get('input[id="user-location"]').click({force: true})
       
       // descartar los cambios
       cy.xpath('/html/body/div[2]/div/nav[1]/section/div[1]/ul[2]/li[5]/a').click({force: true})
