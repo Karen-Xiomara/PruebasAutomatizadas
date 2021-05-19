@@ -15,7 +15,7 @@ describe('Create a Posts Draft', () => {
       cy.wait(2000)
       cy.get('.gh-btn-green').click()
       cy.wait(3000)  
-      cy.get('.gh-editor-title.ember-text-area.gh-input.ember-view').type('Pagina nueva de ejemplo ajc {enter}')  
+      cy.get('.gh-editor-title.ember-text-area.gh-input.ember-view').type('Pagina nueva de ejemplo en DRAFT {enter}')  
             
     })
     

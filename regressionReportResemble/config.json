@@ -1,0 +1,22 @@
+{
+    "url":"http://localhost:2368/ghost/#/site",
+    "escenarios":["01","02","03","04","05","06","07" ,"08","09","10"],
+    "pasos":["01", "00", "02","03", "04", "05", "06", "07", "08","09"],
+    "options":{
+        "output": {
+            "errorColor": {
+                "red": 255,
+                "green": 0,
+                "blue": 255
+            },
+            "errorType": "movement",
+            "largeImageThreshold": 1200,
+            "useCrossOrigin": false,
+            "outputDiff": true
+        },
+        "scaleToSameSize": true,
+        "ignore": "antialiasing"
+    },
+    "viewportHeight":600, 
+    "viewportWidth":800
+}
