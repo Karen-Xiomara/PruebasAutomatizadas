@@ -1,0 +1,15 @@
+{
+    "projectId":"Ghost-Test-BDT",
+    "baseUrl":"http://localhost:2369/ghost",
+    "env": {
+        "urlLogin": "http://localhost:2369/ghost/#/signin",
+        "username": "nilsonp@gmail.com",
+        "password": "Abc1234567"
+    },
+    "integrationFolder": "./cypress/integration/",
+    "pluginsFile": "./cypress/plugins/index.js",
+    "testFiles": "*.spec.js", 
+    "screenshotsFolder": "./results/screenshots",
+    "video": false,
+    "chromeWebSecurity": false
+}
