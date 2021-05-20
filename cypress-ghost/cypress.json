@@ -1,8 +1,8 @@
 {
     "projectId":"Ghost-Test-BDT",
-    "baseUrl":"http://localhost:2368/ghost",
+    "baseUrl":"http://localhost:2369/ghost",
     "env": {
-        "urlLogin": "http://localhost:2368/ghost/#/signin",
+        "urlLogin": "http://localhost:2369/ghost/#/signin",
         "username": "nilsonp@gmail.com",
         "password": "Abc1234567"
     },
