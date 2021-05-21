@@ -3,8 +3,8 @@
     "baseUrl":"http://localhost:2369/ghost",
     "env": {
         "urlLogin": "http://localhost:2369/ghost/#/signin",
-        "username": "nilsonp@gmail.com",
-        "password": "Abc1234567"
+        "username": "j.cuestaa@uniandes.edu.co",
+        "password": "hqlDIOPN9j"
     },
     "integrationFolder": "./cypress/integration/",
     "pluginsFile": "./cypress/plugins/index.js",
