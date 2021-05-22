@@ -146,5 +146,5 @@ NOTA: el código para la generación del reporte HTML se encuentra en el archivo
 - EscenarioAJC2: Pool de datos seudo aleatorio dinámico - 10 escenarios de pruebas.
 - EscenarioAJC3: Estrategia aleatoria de generación de datos a partir de faker - 1 escenario de prueba.
 - EscenarioAJC5: Pool de datos a priori - 5 escenarios de pruebas.
-
+NOTA: Los escenarios que utilizan un pool de datos a priori se obtienen a partir de la descarga de archivos .json que se generan en la página web de Mokaroo, y se almacenan en la ruta PruebasAutomatizadas\cypress-ghost\cypress\Mocks. Para generar estos archivos se ingresa a la página web y se especifica el tipo de campo y la cantidad de filas a generar.
 
