@@ -153,7 +153,7 @@ NOTA: el código para la generación del reporte HTML se encuentra en el archivo
 
 ## Resumen Escenarios:
 - Con Pool de Datos a priori: 105
-- Con Pool de Datos seudo aleatorio dinamico: 21
+- Con Pool de Datos seudo aleatorio dinamico: 21 * Este número se incrementará en la medida que sean ejecutados este tipo de escenarios
 - Con Datos aletorios: 4
 
 ## Incidencias:
