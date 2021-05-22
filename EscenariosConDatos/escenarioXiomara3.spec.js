@@ -1,5 +1,5 @@
-import MOCK_DATA_PAGES from "../Mocks/MOCK_DATA_CREATE_PAGE_FAKER.json";
-import { crearPagina } from "../funciones.js";
+import MOCK_DATA_PAGES from "../cypress-ghost/cypress/Mocks/MOCK_DATA_CREATE_PAGE.json";
+import { crearPagina } from "../cypress-ghost/cypress/funciones.json";
 
 const urlLogin = Cypress.env("urlLogin");
 const username = Cypress.env("username");

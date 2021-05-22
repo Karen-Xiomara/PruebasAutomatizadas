@@ -1,4 +1,4 @@
-import MOCK_DATA_PAGES from "../Mocks/MOCK_DATA_CREATE_PAGE.json";
+import MOCK_DATA_PAGES from "../cypress-ghost/cypress/Mocks/MOCK_DATA_CREATE_PAGE.json";
 
 const urlLogin = Cypress.env("urlLogin");
 const username = Cypress.env("username");
