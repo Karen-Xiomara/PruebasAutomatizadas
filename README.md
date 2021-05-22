@@ -114,3 +114,37 @@ NOTA: el código para la generación del reporte HTML se encuentra en el archivo
 - Ver el reporte HTML en la ruta backstop_data\html_report\index.html
 - Notar que el reporte HTML contiene 1 escenario de las funcionalidades (Para un total de 11 escenarios con los de Resemble)
 NOTA: el código para la generación del reporte HTML se encuentra en el archivo backstop.json
+
+## Instrucciones para Ejecución de Escenarios con generación de datos
+- Ingresar al repositorio https://github.com/Karen-Xiomara/PruebasAutomatizadas.git
+- Clonar el repositorio en un directorio de su preferencia
+- Instalar Cypress, NodeJS y Ghost v3.42.5 
+- Se recomienda inicializar la base de datos de Ghost si ya se ha realizado pruebas anteriores
+- Crear el siguiente usuario en Ghost: email: j.cuestaa@uniandes.edu.co y password: hqlDIOPN9j
+- Ingresar a la ruta PruebasAutomatizadas\cypress-ghost del repositorio clonado
+- Desde la ruta anterior, abrir una terminal y ejecutar el comando npm install para instalar las dependencias del proyecto
+- Abrir una terminal y ejecutar el comando npm install -D cypress-xpath
+- Abrir una terminal y ejecutar el comando npm install faker.
+- En la ruta PruebasAutomatizadas\cypress-ghost\cypress\integration se encuentran los archivos que generan los 150 escenarios de prueba.
+- Los escenarios utilizan unos archivos .json que se importan desde la ruta PruebasAutomatizadas\cypress-ghost\cypress\Mocks (estos archivos fueron generados con Mokaroo para la estrategia de generación data pool a priori, otros se generan según la estrategia generación aleatoria dinámica de datos con la herramienta faker)
+- Los escenarios utilizan el archivo funciones.js que se encuentra en la ruta PruebasAutomatizadas\cypress-ghost\cypress 
+- Abrir una terminal y desde la ruta PruebasAutomatizadas\cypress-ghost ejecutar el comando cypress run para correr los 150 escenarios
+- Verificar que durante las pruebas se puede ingresar de manera correcta el usuario y password a la aplicación Ghost.
+
+## Detalle de Escenarios con generación de datos
+- Escenario1Jhon: Pool de datos seudo aleatorio dinámico - 3 escenarios de prueba. 
+- Escenario2Jhon: Estrategia aleatoria de generación de datos a partir de faker - 1 escenario de prueba. 
+- Escenario3Jhon: Estrategia aleatoria de generación de datos a partir de faker - 1 escenario de prueba. 
+- Escenario4Jhon: Pool de datos a priori - 15 escenarios de prueba. 
+- Escenario5Jhon: Pool de datos a priori - 10 escenarios de prueba.
+- EscenarioXiomara: Pool de datos a priori - 14 escenarios de prueba. 
+- EscenarioXiomara2: Pool de datos a priori - 14 escenario de prueba. 
+- EscenarioXiomara3: Pool de datos seudo aleatorio dinámico - 1 escenario de prueba. 
+- EscenarioXiomara4: Pool de datos seudo aleatorio dinámico - 1 escenario de prueba. 
+- EscenarioXiomara5: Estrategia aleatoria de generación de datos a partir de faker - 1 escenario de prueba.
+- EscenarioAJC1: Pool de datos a priori - 15 escenarios de pruebas.
+- EscenarioAJC2: Pool de datos seudo aleatorio dinámico - 16 escenarios de pruebas.
+- EscenarioAJC3: Estrategia aleatoria de generación de datos a partir de faker - 1 escenario de prueba.
+- EscenarioAJC5: Pool de datos a priori - 5 escenarios de pruebas.
+- NOTA: Los escenarios que utilizan un pool de datos a priori se obtienen a partir de la descarga de archivos .json que se generan en la página web de Mokaroo, y se almacenan en la ruta PruebasAutomatizadas\cypress-ghost\cypress\Mocks. Para generar estos archivos se ingresa a la página web y se especifica el tipo de campo y la cantidad de filas a generar.
+
