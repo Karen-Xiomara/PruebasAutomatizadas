@@ -1,5 +1,7 @@
 import Seudo from "../Mocks/dataSeudo.json";
 const faker = require('faker');
+const filename = "cypress/Mocks/dataSeudo.json";
+
 
 describe('Modify the title and content of a post', () => {
   let titles = Seudo;
@@ -23,6 +25,15 @@ describe('Modify the title and content of a post', () => {
   })
 }
 })
-beforeEach(() => {
-  cy.writeFile('cypress/Mocks/dataSeudo.json', [{ titulo: faker.phone.phoneNumber(), descripcion: faker.phone.phoneNumber()},{ titulo: faker.phone.phoneNumber(), descripcion: faker.phone.phoneNumber()},{ titulo: faker.phone.phoneNumber(), descripcion: faker.phone.phoneNumber()}])
+
+
+  beforeEach(() => {
+    //cy.writeFile('cypress/Mocks/dataSeudo.json', [{ titulo: faker.phone.phoneNumber(), descripcion: faker.phone.phoneNumber()},{ titulo: faker.phone.phoneNumber(), descripcion: faker.phone.phoneNumber()},{ titulo: faker.phone.phoneNumber(), descripcion: faker.phone.phoneNumber()}])
+    cy.readFile(filename).then((list) => {
+      list.push({
+        titulo: faker.phone.phoneNumber(),
+        descripcion: faker.phone.phoneNumber(),
+      });
+      cy.writeFile(filename, list);
+    });  
   })

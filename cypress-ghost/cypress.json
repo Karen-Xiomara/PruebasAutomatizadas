@@ -9,7 +9,7 @@
     },
     "integrationFolder": "./cypress/integration/",
     "pluginsFile": "./cypress/plugins/index.js",
-    "testFiles": "escenario1Jhon.spec.js", 
+    "testFiles": "*.spec.js", 
     "screenshotsFolder": "./results/screenshots",
     "video": false,
     "chromeWebSecurity": false
