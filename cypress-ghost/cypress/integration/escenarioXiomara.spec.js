@@ -16,12 +16,6 @@ describe("Create a page Schedule", () => {
     cy.get('button[id="ember12"]').click()
   }); 
 
-  // logout
-  afterEach(()=>{
-    // cy.xpath('/html/body/div[2]/div/nav[1]/section/div[2]/div[1]').click()
-    // cy.xpath('/html/body/div[1]/div/ul/li[9]/a').click()        
-  }); 
-
   for (let row in pages) {
     it("Create a page Schedule", () => {
       cy.get("[id$=ember37]").click();
