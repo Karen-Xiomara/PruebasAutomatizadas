@@ -142,5 +142,9 @@ NOTA: el código para la generación del reporte HTML se encuentra en el archivo
 - EscenarioXiomara3: Pool de datos seudo aleatorio dinámico - 1 escenario de prueba. 
 - EscenarioXiomara4: Pool de datos seudo aleatorio dinámico - 1 escenario de prueba. 
 - EscenarioXiomara5: Estrategia aleatoria de generación de datos a partir de faker - 1 escenario de prueba.
+- EscenarioAJC1: Pool de datos a priori - 15 escenarios de pruebas.
+- EscenarioAJC2: Pool de datos seudo aleatorio dinàmico - 10 escenarios de pruebas.
+- EscenarioAJC3: Estrategia aleatoria de generación de datos a partir de faker - 1 escenario de prueba.
+- EscenarioAJC5: Pool de datos a priori - 5 escenarios de pruebas.
 
 
