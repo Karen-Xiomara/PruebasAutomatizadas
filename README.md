@@ -122,7 +122,7 @@ NOTA: el código para la generación del reporte HTML se encuentra en el archivo
 - Se recomienda inicializar la base de datos de Ghost si ya se ha realizado pruebas anteriores
 - Crear el siguiente usuario en Ghost: email: j.cuestaa@uniandes.edu.co y password: hqlDIOPN9j
 - Ingresar a la ruta PruebasAutomatizadas\cypress-ghost del repositorio clonado
-- Desde la ruta anterior, abrir una terminal y ejecutar el comando nmp install para instalar las dependencias del proyecto
+- Desde la ruta anterior, abrir una terminal y ejecutar el comando npm install para instalar las dependencias del proyecto
 - Abrir una terminal y ejecutar el comando npm install -D cypress-xpath
 - Abrir una terminal y ejecutar el comando npm install faker.
 - En la ruta PruebasAutomatizadas\cypress-ghost\cypress\integration se encuentran los archivos que generan los 150 escenarios de prueba.
