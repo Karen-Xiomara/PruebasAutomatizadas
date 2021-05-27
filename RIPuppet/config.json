@@ -1,0 +1,17 @@
+{
+    "url": "http://localhost:2368/ghost/#/site",
+    "headless": false,
+    "depthLevels": 10,
+    "inputValues": true,
+    "values": {
+        "userInput": "Mario",
+        "passwordInput": "123456",
+        "passwordTwoInput": "123456",
+        "nameInput": "Mario",
+        "emailInput": "mario@b.com"
+    },
+    "browsers": ["chromium"],
+    "loginUrl":"http://localhost:2368/ghost/#/signin",
+    "userGhostAdmin":"nilsonp@gmail.com",
+    "passwordGhostAdmin":"Abc1234567"
+}
