@@ -65,16 +65,6 @@ console.log(inputValues);
       const context = await browser.newContext();
       const page = await context.newPage();
 
-      let loginUrl = config.loginUrl;
-      let userGhostAdmin = config.userGhostAdmin;
-      let passwordGhostAdmin = config.passwordGhostAdmin;
-
-      await page.goto(loginUrl);
-      await page.type('input[id="ember8"]', userGhostAdmin);
-      await page.type('input[id="ember10"]', passwordGhostAdmin);
-      await page.click('button[id="ember12"]');
-      await new Promise(r => setTimeout(r, 4000));
-
       //Make sure errors and console events are catched
       await addListeners(page);
       
@@ -136,6 +126,19 @@ async function scrapLinks(page){
 async function recursiveExploration(page, link, depth, parentState){
 
   console.log('Depth Level: ' + depth  + ' in ' + link);
+  if(depth===0){
+    let loginUrl = config.loginUrl;
+      let userGhostAdmin = config.userGhostAdmin;
+      let passwordGhostAdmin = config.passwordGhostAdmin;
+
+      await page.goto(link);
+      await page.type('input[id="ember8"]', userGhostAdmin);
+      await page.type('input[id="ember10"]', passwordGhostAdmin);
+      await page.click('button[id="ember12"]');
+      //await new Promise(r => setTimeout(r, 2000));
+      await recursiveExploration(page, link, depth+1, -1);
+  }
+
   if(depth > depthLevels) {
     console.log("Depth levels reached. Exploration stopped")
     return;
