@@ -38,9 +38,21 @@ Nilson Parra - (n.parram@uniandes.edu.co)
 |5  |               |                  |X        |     |             | 
 | 2 |              |                  |X       |     |             | 
 | 1 |               |                  | X       |     |             | 
-
-
-
+| 5 |               |                  | X       |     |             | 
+| 7 |               |                  | X       |     |             | 
+| 5 |               |                  | X       |     |             | 
+| 5 |               |                  | X       |     |             | 
+| 3 |               |                  | X       |     |             | 
+| 2 |                |                  |X       |     |             |
+| 2 |                |                  |X       |     |             |
+| 2 |                |                  |X       |     |             |
+| 2 |                |                  |X       |     |             |
+| 2 |                |                  |X       |     |             |
+| 3 |                |                  |X       |     |             |
+| 3 |                |                  |X       |     |             |
+| 3 |                |                  |X       |     |             |
+| 3 |                |                  |X       |     |             |
+| 3 |                |                  |X       |     |             |
 ## Indicaciones para las pruebas exploratorias
 El inventario de pruebas manuales se encuentra en el archivo XXXXXXX que se encuentra en la ruta ZZZZZZZ, en el cual están las 20 pruebas exploratorias. Cada prueba tiene su enlace a los videos alojados en OneDrive.
 
