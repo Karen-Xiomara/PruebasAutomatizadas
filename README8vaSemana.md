@@ -20,9 +20,9 @@ Nilson Parra - (n.parram@uniandes.edu.co)
 
 | Id  Funcionalidad | Nombre archivo | P. Reconocimiento| P. E2E | VRT | Ruta Carpeta|
 | ------------------| ---------------| ---------------- | ------ | ----| ------------|
-|                   |                |                  |        |     |             |  
-|                   |                |                  |        |     |             | 
-|                   |                |                  |        |     |             | 
+|                   |monkey.js       |        X         |        |     | PruebasAutomatizadas/monkey-cypress/cypress/integration/monkey            |  
+|                   |index.js        |        X         |        |     | PruebasAutomatizadas/RIPuppet            | 
+|                   |backstop.json   |                  |        |   X | PruebasAutomatizadas/regressionReportBackstop            | 
 |                   |                |                  |        |     |             | 
 |                   |                |                  |        |     |             | 
 |                   |                |                  |        |     |             | 
