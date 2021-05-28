@@ -20,8 +20,8 @@ Nilson Parra - (n.parram@uniandes.edu.co)
 
 | Id  Funcionalidad         | Nombre archivo                                             | P. Reconocimiento                                                                                                      | P. E2E | VRT | |
 | ------------ | --------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ | ------- | ------ | -------|
-| [HU01](HU01) | Consultar catálogo de álbumes                       | Como usuario visitante quiero navegar el catálogo de los álbumes para escoger los que más me interesan       |Jhon Cuesta |Xiomara Correa|XX |
-| [HU02](HU02)         | Consultar la información detallada de un álbum      | Como usuario visitante quiero ver el detalle de un álbum para ampliar la información sobre él                |Jhon Cuesta| Jhonatan Segura|XX |
+|  |                     |      | || |
+|        |     |     || | |
 | [HU03](HU003)         | Consultar el listado de músicos                     | Como usuario visitante quiero ver el listado de músicos para escoger los que más me interesan                |Jhonatan Segura| Xiomara Correa |XX |
 | [HU04](HU004)          | Consultar la información detallada de un músico     | Como usuario visitante quiero ver el detalle de un músico para ampliar la información sobre él               |Jhonatan Segura |Jhon Cuesta        | XX|
 | [HU05](HU05)         | Consultar listado de coleccionistas                 | Como usuario visitante quiero consultar el listado de coleccionistas para seleccionar el que más me interese |Xiomara Correa         | Jhon Cuesta       | XX|
