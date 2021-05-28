@@ -51,9 +51,9 @@ Nilson Parra - (n.parram@uniandes.edu.co)
 ## Resumen pruebas 
 | ID Funcionalidad | ID Escenario | P. Reconocimiento| P. E2E | VRT | Ruta Carpeta|
 | ------------------| ---------------| ---------------- | ------ | ----| ------------|
-| N/A                  |monkey.js       |        X         |        |     | PruebasAutomatizadas/monkey-cypress/cypress/integration/monkey            |  
-| N/A                  |index.js        |        X         |        |     | PruebasAutomatizadas/RIPuppet            | 
-|                   |backstop.json   |                  |        |   X | PruebasAutomatizadas/regressionReportBackstop            | 
+| N/A                  |26       |        X         |        |     | PruebasAutomatizadas/monkey-cypress/cypress/integration/monkey            |  
+| N/A                  |27        |        X         |        |     | PruebasAutomatizadas/RIPuppet            | 
+|                   |28   |                  |        |   X | PruebasAutomatizadas/regressionReportBackstop            | 
 |4  | 1               |                  | X       |     |PruebasAutomatizadas/Cypress             | 
 |1  |  2             |                  |X        |     |PruebasAutomatizadas/Cypress             | 
 | 1 |   3            |                  | X       |     |PruebasAutomatizadas/Cypress             | 
