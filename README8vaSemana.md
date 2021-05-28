@@ -19,8 +19,36 @@ Nilson Parra - (n.parram@uniandes.edu.co)
 - Create Tag (ID Funcionalidad:7)
 - Delete Tag (ID Funcionalidad:8)
 
+## Escenarios de pruebas E2E
+
+- Escenario 1: Crear post con titulos y detalles y publicarlo
+- Escenario 2: Crear post con titulos y detalles y no publicarlo
+-	Escenario 3: Crear post con titulos y detalles programando una fecha de publicación
+-	Escenario 4: Listar los posts que se encuentran como borrador (draft)
+-	Escenario 5: Ingresar a la Pagina Ghost
+- Escenario 6: Modificar el titulo de un post y publicarlo
+- Escenario 7: Modificar el contenido de un post y publicarlo
+- Escenario 8: Modificar un post y hacerlo privado
+- Escenario 9: Modificar el titulo y contenido de un post y publicarlo
+- Escenario 10: Modificar un post con caracteres especiales y publicarlo
+- Escenario 11: Crear una pagina publicada
+- Escenario 12: Crear una pagina borrador
+- Escenario 13: Crear una pagina borrador sin titulo
+- Escenario 14: Crear una pagina borrador sin description
+- Escenario 15: Crear una pagina programada
+- Escenario 16: Crear de nuevo Post cancelando  el Publish
+- Escenario 17: Modificar una Página con Publish execution
+- Escenario 18: Modificar un Post con Publish execution
+- Escenario 19: Modificar un Post sin Publish
+- Escenario 20: Cancelar una eliminación de un Post
+- Escenario 21: Modificar valores del perfil de usuario
+- Escenario 22: Modificar configuraciones del portal (settings)
+- Escenario 23: Crear y eliminar TAG
+- Escenario 24: Crea una página en estado borrador
+- Escenario 25: Invitar a colaboradores
 
 
+## Resumen pruebas 
 | ID Funcionalidad | ID Escenario | P. Reconocimiento| P. E2E | VRT | Ruta Carpeta|
 | ------------------| ---------------| ---------------- | ------ | ----| ------------|
 | N/A                  |monkey.js       |        X         |        |     | PruebasAutomatizadas/monkey-cypress/cypress/integration/monkey            |  
@@ -51,36 +79,10 @@ Nilson Parra - (n.parram@uniandes.edu.co)
 | 5 |23              |                  | X       |     |PruebasAutomatizadas/Cypress             | 
 | 5 |24               |                  | X       |     |PruebasAutomatizadas/Cypress             | 
 | 3 |25               |                  | X       |     | PruebasAutomatizadas/Cypress            | 
+
 ## Indicaciones para las pruebas exploratorias
 El inventario de pruebas manuales se encuentra en el archivo XXXXXXX que se encuentra en la ruta ZZZZZZZ, en el cual están las 20 pruebas exploratorias. Cada prueba tiene su enlace a los videos alojados en OneDrive.
 
-## Escenarios de pruebas E2E
-
-- Escenario 1: Crear post con titulos y detalles y publicarlo
-- Escenario 2: Crear post con titulos y detalles y no publicarlo
--	Escenario 3: Crear post con titulos y detalles programando una fecha de publicación
--	Escenario 4: Listar los posts que se encuentran como borrador (draft)
--	Escenario 5: Ingresar a la Pagina Ghost
-- Escenario 6: Modificar el titulo de un post y publicarlo
-- Escenario 7: Modificar el contenido de un post y publicarlo
-- Escenario 8: Modificar un post y hacerlo privado
-- Escenario 9: Modificar el titulo y contenido de un post y publicarlo
-- Escenario 10: Modificar un post con caracteres especiales y publicarlo
-- Escenario 11: Crear una pagina publicada
-- Escenario 12: Crear una pagina borrador
-- Escenario 13: Crear una pagina borrador sin titulo
-- Escenario 14: Crear una pagina borrador sin description
-- Escenario 15: Crear una pagina programada
-- Escenario 16: Crear de nuevo Post cancelando  el Publish
-- Escenario 17: Modificar una Página con Publish execution
-- Escenario 18: Modificar un Post con Publish execution
-- Escenario 19: Modificar un Post sin Publish
-- Escenario 20: Cancelar una eliminación de un Post
-- Escenario 21: Modificar valores del perfil de usuario
-- Escenario 22: Modificar configuraciones del portal (settings)
-- Escenario 23: Crear y eliminar TAG
-- Escenario 24: Crea una página en estado borrador
-- Escenario 25: Invitar a colaboradores
 
 ## Instrucciones de ejecucion de pruebas E2E para Cypress 
 - Instalar las aplicaciones NodeJs y Ghost en las versiones compatibles
