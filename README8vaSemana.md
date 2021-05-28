@@ -26,33 +26,31 @@ Nilson Parra - (n.parram@uniandes.edu.co)
 | N/A                  |monkey.js       |        X         |        |     | PruebasAutomatizadas/monkey-cypress/cypress/integration/monkey            |  
 | N/A                  |index.js        |        X         |        |     | PruebasAutomatizadas/RIPuppet            | 
 |                   |backstop.json   |                  |        |   X | PruebasAutomatizadas/regressionReportBackstop            | 
-|1  |  |                  |  X      |     |             | 
-|4  |                |                  |        |     |             | 
-| 1 |                 |                  |X        |     |             | 
-|1  |               |                  |X        |     |             | 
-| 2 |                |                  |X       |     |             | 
-| 1 |               |                  | X       |     |             | 
-|2 |  |                  |  X      |     |             | 
-|2  |              |                  | X       |     |             | 
-| 1 |                 |                  |X        |     |             | 
-|5  |               |                  |X        |     |             | 
-| 2 |              |                  |X       |     |             | 
-| 1 |               |                  | X       |     |             | 
-| 5 |               |                  | X       |     |             | 
-| 7 |               |                  | X       |     |             | 
-| 5 |               |                  | X       |     |             | 
-| 5 |               |                  | X       |     |             | 
-| 3 |               |                  | X       |     |             | 
-| 2 |                |                  |X       |     |             |
-| 2 |                |                  |X       |     |             |
-| 2 |                |                  |X       |     |             |
-| 2 |                |                  |X       |     |             |
-| 2 |                |                  |X       |     |             |
-| 3 |                |                  |X       |     |             |
-| 3 |                |                  |X       |     |             |
-| 3 |                |                  |X       |     |             |
-| 3 |                |                  |X       |     |             |
-| 3 |                |                  |X       |     |             |
+|1  |16  |                  |  X      |     |             | 
+|4  | 1               |                  |        |     |             | 
+| 1 |17                 |                  |X        |     |             | 
+|1  |  2             |                  |X        |     |             | 
+| 2 |18                |                  |X       |     |             | 
+| 1 |   3            |                  | X       |     |             | 
+|2 | 19 |                  |  X      |     |             | 
+|2  |    4          |                  | X       |     |             | 
+| 1 |20                 |                  |X        |     |             | 
+|5  |     5          |                  |X        |     |             | 
+| 5 |21               |                  | X       |     |             | 
+| 7 |22               |                  | X       |     |             | 
+| 5 |23              |                  | X       |     |             | 
+| 5 |24               |                  | X       |     |             | 
+| 3 |25               |                  | X       |     |             | 
+| 2 |6                |                  |X       |     |             |
+| 2 |7                |                  |X       |     |             |
+| 2 |8                |                  |X       |     |             |
+| 2 |9                |                  |X       |     |             |
+| 2 |10               |                  |X       |     |             |
+| 3 |11                |                  |X       |     |             |
+| 3 |12                |                  |X       |     |             |
+| 3 |13                |                  |X       |     |             |
+| 3 |14                |                  |X       |     |             |
+| 3 |15               |                  |X       |     |             |
 ## Indicaciones para las pruebas exploratorias
 El inventario de pruebas manuales se encuentra en el archivo XXXXXXX que se encuentra en la ruta ZZZZZZZ, en el cual están las 20 pruebas exploratorias. Cada prueba tiene su enlace a los videos alojados en OneDrive.
 
