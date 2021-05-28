@@ -16,6 +16,21 @@ Nilson Parra - (n.parram@uniandes.edu.co)
 - Modificar página
 - Propiedades del perfil
 
+
+
+| Id  Funcionalidad         | Nombre archivo                                             | P. Reconocimiento                                                                                                      | P. E2E | VRT | V. Datos |
+| ------------ | --------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ | ------- | ------ |
+| [HU01](HU01) | Consultar catálogo de álbumes                       | Como usuario visitante quiero navegar el catálogo de los álbumes para escoger los que más me interesan       |Jhon Cuesta |Xiomara Correa|
+| [HU02](HU02)         | Consultar la información detallada de un álbum      | Como usuario visitante quiero ver el detalle de un álbum para ampliar la información sobre él                |Jhon Cuesta| Jhonatan Segura|
+| [HU03](HU003)         | Consultar el listado de músicos                     | Como usuario visitante quiero ver el listado de músicos para escoger los que más me interesan                |Jhonatan Segura| Xiomara Correa |
+| [HU04](HU004)          | Consultar la información detallada de un músico     | Como usuario visitante quiero ver el detalle de un músico para ampliar la información sobre él               |Jhonatan Segura |Jhon Cuesta        |
+| [HU05](HU05)         | Consultar listado de coleccionistas                 | Como usuario visitante quiero consultar el listado de coleccionistas para seleccionar el que más me interese |Xiomara Correa         | Jhon Cuesta       |
+| [HU06](HU06) | Consultar la información detallada de coleccionista | Como usuario visitante quiero ver el detalle de un coleccionista para conocer sus gustos musicales           |Xiomara Correa         | Jhonatan Segura       |
+| HU07         | Consultar listado de premios                        | Como usuario visitante quiero consultar el listado de premios para seleccionar el que más me interese        |         |        |
+| HU08         | Consultar la información detallada de un premio     | Como usuario visitante quiero ver el detalle de un premio para ver a quién se ha otorgado                    |         |        |
+
+
+
 ## Indicaciones para las pruebas exploratorias
 El inventario de pruebas manuales se encuentra en el archivo XXXXXXX que se encuentra en la ruta ZZZZZZZ, en el cual están las 20 pruebas exploratorias. Cada prueba tiene su enlace a los videos alojados en OneDrive.
 
@@ -142,3 +157,6 @@ node index.js
 - Los escenarios utilizan el archivo funciones.js que se encuentra en la ruta PruebasAutomatizadas\cypress-ghost\cypress 
 - Abrir una terminal y desde la ruta PruebasAutomatizadas\cypress-ghost ejecutar el comando cypress run para correr los 150 escenarios
 - Verificar que durante las pruebas se puede ingresar de manera correcta el usuario y password a la aplicación Ghost.
+
+
+
