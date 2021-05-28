@@ -10,25 +10,34 @@ Nilson Parra - (n.parram@uniandes.edu.co)
 
 ## Funcionalidades bajo pruebas
 
-- Crear Post
-- Modificar Post
-- Crear página
-- Modificar página
-- Propiedades del perfil
+- Crear Post (ID Funcionalidad:1)
+- Modificar Post (ID Funcionalidad:2)
+- Crear página (ID Funcionalidad:3)
+- Modificar página (ID Funcionalidad:4)
+- Propiedades del perfil (ID Funcionalidad:5)
+- Login (ID Funcionalidad:6)
+- Create Tag (ID Funcionalidad:7)
+- Delete Tag (ID Funcionalidad:8)
 
 
 
-| Id  Funcionalidad | Nombre archivo | P. Reconocimiento| P. E2E | VRT | Ruta Carpeta|
+| ID Funcionalidad | ID Escenario | P. Reconocimiento| P. E2E | VRT | Ruta Carpeta|
 | ------------------| ---------------| ---------------- | ------ | ----| ------------|
-|                   |monkey.js       |        X         |        |     | PruebasAutomatizadas/monkey-cypress/cypress/integration/monkey            |  
-|                   |index.js        |        X         |        |     | PruebasAutomatizadas/RIPuppet            | 
+| N/A                  |monkey.js       |        X         |        |     | PruebasAutomatizadas/monkey-cypress/cypress/integration/monkey            |  
+| N/A                  |index.js        |        X         |        |     | PruebasAutomatizadas/RIPuppet            | 
 |                   |backstop.json   |                  |        |   X | PruebasAutomatizadas/regressionReportBackstop            | 
-|                   |                |                  |        |     |             | 
-|                   |                |                  |        |     |             | 
-|                   |                |                  |        |     |             | 
-|                   |                |                  |        |     |             | 
-|                   |                |                  |        |     |             | 
-|                   |                |                  |        |     |             | 
+|1  |  |                  |  X      |     |             | 
+|4  |                |                  |        |     |             | 
+| 1 |                 |                  |X        |     |             | 
+|1  |               |                  |X        |     |             | 
+| 2 |                |                  |X       |     |             | 
+| 1 |               |                  | X       |     |             | 
+|2 |  |                  |  X      |     |             | 
+|2  |              |                  | X       |     |             | 
+| 1 |                 |                  |X        |     |             | 
+|5  |               |                  |X        |     |             | 
+| 2 |              |                  |X       |     |             | 
+| 1 |               |                  | X       |     |             | 
 
 
 
