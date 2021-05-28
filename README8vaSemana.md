@@ -27,7 +27,7 @@ Nilson Parra - (n.parram@uniandes.edu.co)
 | N/A                  |index.js        |        X         |        |     | PruebasAutomatizadas/RIPuppet            | 
 |                   |backstop.json   |                  |        |   X | PruebasAutomatizadas/regressionReportBackstop            | 
 |1  |16  |                  |  X      |     |             | 
-|4  | 1               |                  |        |     |             | 
+|4  | 1               |  X                |        |     |             | 
 | 1 |17                 |                  |X        |     |             | 
 |1  |  2             |                  |X        |     |             | 
 | 2 |18                |                  |X       |     |             | 
