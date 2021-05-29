@@ -135,7 +135,7 @@ Ejecutar el comando para instalar las dependencias:
 ```
 npm install
 ```
-
+Abrir el archivo monkey-config.json que se encuentra en la ruta PruebasAutomatizadas/monkey-cypress,  y modificar los atributos "userGhostAdmin" y "passwordGhostAdmin" con las credenciales del usuario registrado en Ghost. También modificar el atributo "loginUrl" y reemplazar por la siguiente url "http://localhost:2369/ghost/#/signin".
 Para ejecutar el monkey:
 
 ```
@@ -157,7 +157,7 @@ Ejecutar el comando para instalar las dependencias:
 ```
 npm install
 ```
-
+Abrir el archivo config.json que se encuentra en la ruta PruebasAutomatizadas/RIPuppet, y modificar los atributos "userGhostAdmin" y "passwordGhostAdmin" con las credenciales del usuario registrado en Ghost. También modificar el atributo "loginUrl" y reemplazar por la siguiente url "http://localhost:2369/ghost/#/signin".
 Para ejecutar el ripper:
 
 ```
