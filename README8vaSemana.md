@@ -12,7 +12,7 @@ Nilson Parra - (n.parram@uniandes.edu.co)
 El documento que contiene la estrategia de pruebas para las 8 semanas se encuentra en la raíz del repositorio, el nombre es Estrategia-pruebas.docx
 
 ## Video Estrategia de pruebas
-La url del video que consolida la estrategia de pruebas se encuentra en el documento Estrategia-pruebas.docx que está en la raíz del repositorio.
+La url del video que consolida la estrategia de pruebas es la siguiente: https://www.youtube.com/watch?v=HZiHt2zTX64.
 
 ## Funcionalidades bajo pruebas
 
