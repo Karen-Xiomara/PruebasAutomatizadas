@@ -8,6 +8,9 @@ Jhon Cuesta - (j.cuestaa@uniandes.edu.co)</br>
 Ricardo Matiz - (rmatizc@uniandes.edu.co)</br>
 Nilson Parra - (n.parram@uniandes.edu.co)
 
+## Documento Estrategia de pruebas
+El documento que contiene la estrategia de pruebas para las 8 semanas se encuentra en la raíz del repositorio, el nombre es Estrategia-pruebas.docx
+
 ## Funcionalidades bajo pruebas
 
 - Crear Post (ID Funcionalidad:1)
