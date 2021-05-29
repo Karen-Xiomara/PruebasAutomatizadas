@@ -81,7 +81,7 @@ Nilson Parra - (n.parram@uniandes.edu.co)
 | 3 |25               |                  | X       |     | PruebasAutomatizadas/Cypress            | 
 
 ## Indicaciones para las pruebas exploratorias
-El inventario de pruebas manuales se encuentra en el archivo XXXXXXX que se encuentra en la ruta ZZZZZZZ, en el cual están las 20 pruebas exploratorias. Cada prueba tiene su enlace a los videos alojados en OneDrive.
+El inventario de pruebas manuales se encuentra en el archivo inventario-pruebas-exploratorias.xlsx que se encuentra en la ruta PruebasAutomatizadas/Videos, en el cual están las 20 pruebas exploratorias. Cada prueba tiene su enlace a los videos alojados en OneDrive.
 
 
 ## Instrucciones de ejecucion de pruebas E2E para Cypress 
