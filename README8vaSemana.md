@@ -56,7 +56,7 @@ La url del video que consolida la estrategia de pruebas es la siguiente: https:/
 
 ## Resumen pruebas 
 | ID Funcionalidad | ID Escenario | P. Reconocimiento| P. E2E | VRT | V.Datos |Ruta Carpeta|
-| ------------------| ---------------| ---------------- | ------ | ----| ------------|
+| ------------------| ---------------| ---------------- | ------ | ----| ------------|---------|
 | N/A                  |26       |        X         |        |    | | PruebasAutomatizadas/monkey-cypress/cypress/integration/monkey            |  
 | N/A                  |27        |        X         |        |    | | PruebasAutomatizadas/RIPuppet            |  
 
