@@ -64,11 +64,11 @@ La url del video que consolida la estrategia de pruebas es la siguiente: https:/
 | 1 |   3            |                  | X       |    | |PruebasAutomatizadas/Cypress             | 
 |2  |    4          |                  | X       |    | | PruebasAutomatizadas/Cypress            | 
 |5  |     5          |                  |X        |    | | PruebasAutomatizadas/Cypress            | 
-| 2 |6                |                  |X       |    | |PruebasAutomatizadas/Cypress             |
-| 2 |7                |                  |X       |    | |PruebasAutomatizadas/Cypress             |
-| 2 |8                |                  |X       |    | |PruebasAutomatizadas/Cypress             |
-| 2 |9                |                  |X       |    | |PruebasAutomatizadas/Cypress             |
-| 2 |10               |                  |X       |    | |PruebasAutomatizadas/Cypress             |
+| 2 |6                |                  |X       |    |X |PruebasAutomatizadas/Cypress             |
+| 2 |7                |                  |X       |    |X |PruebasAutomatizadas/Cypress             |
+| 2 |8                |                  |X       |    |X |PruebasAutomatizadas/Cypress             |
+| 2 |9                |                  |X       |    |X |PruebasAutomatizadas/Cypress             |
+| 2 |10               |                  |X       |    |X |PruebasAutomatizadas/Cypress             |
 | 3 |11                |                  |X       |    | |PruebasAutomatizadas/Cypress             |
 | 3 |12                |                  |X       |    | |PruebasAutomatizadas/Cypress             |
 | 3 |13                |                  |X       |    | |PruebasAutomatizadas/Cypress             |
