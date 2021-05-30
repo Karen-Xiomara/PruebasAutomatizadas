@@ -188,3 +188,27 @@ node index.js
 
 
 
+## Detalle de Escenarios con generación de datos
+- Escenario1Jhon: Pool de datos seudo aleatorio dinámico - 3 escenarios de prueba. 
+- Escenario2Jhon: Estrategia aleatoria de generación de datos a partir de faker - 1 escenario de prueba. 
+- Escenario3Jhon: Estrategia aleatoria de generación de datos a partir de faker - 1 escenario de prueba. 
+- Escenario4Jhon: Pool de datos a priori - 15 escenarios de prueba. 
+- Escenario5Jhon: Pool de datos a priori - 10 escenarios de prueba.
+- EscenarioXiomara: Pool de datos a priori - 14 escenarios de prueba. 
+- EscenarioXiomara2: Pool de datos a priori - 14 escenario de prueba. 
+- EscenarioXiomara3: Pool de datos seudo aleatorio dinámico - 1 escenario de prueba. 
+- EscenarioXiomara4: Pool de datos seudo aleatorio dinámico - 1 escenario de prueba. 
+- EscenarioXiomara5: Estrategia aleatoria de generación de datos a partir de faker - 1 escenario de prueba.
+- EscenarioAJC1: Pool de datos a priori - 15 escenarios de pruebas.
+- EscenarioAJC2: Pool de datos seudo aleatorio dinámico - 16 escenarios de pruebas.
+- EscenarioAJC3: Estrategia aleatoria de generación de datos a partir de faker - 1 escenario de prueba.
+- EscenarioAJC5: Pool de datos a priori - 5 escenarios de pruebas.
+- EscenarioRM1: Pool de datos a priori - 5 escenarios de pruebas.
+- EscenarioRM2: Pool de datos  a priori - 5 escenarios de pruebas.
+- EscenarioRM3: Estrategia  a priori - 18 escenarios de pruebas.
+- EscenarioRM4: Pool de datos a priori - 4 escenarios de pruebas.
+
+## Resumen Escenarios:
+- Con Pool de Datos a priori: 105
+- Con Pool de Datos seudo aleatorio dinamico: 21 * Este número se incrementará en la medida que sean ejecutados este tipo de escenarios
+- Con Datos aletorios: 4
