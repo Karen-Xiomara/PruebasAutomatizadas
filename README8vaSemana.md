@@ -57,33 +57,33 @@ La url del video que consolida la estrategia de pruebas es la siguiente: https:/
 ## Resumen pruebas 
 | ID Funcionalidad | ID Escenario | P. Reconocimiento| P. E2E | VRT | V.Datos |Ruta Carpeta|
 | ------------------| ---------------| ---------------- | ------ | ----| ------------|-----------------|
-| N/A                  |26       |        X         |        |    | | PruebasAutomatizadas/monkey-cypress/cypress/integration/monkey            |  
-| N/A                  |27        |        X         |        |    | | PruebasAutomatizadas/RIPuppet            |  
-|4  | 1               |                  | X       |    | |PruebasAutomatizadas/Cypress             | 
-|1  |  2             |                  |X        |    | |PruebasAutomatizadas/Cypress             | 
-| 1 |   3            |                  | X       |    | |PruebasAutomatizadas/Cypress             | 
-|2  |    4          |                  | X       |    | | PruebasAutomatizadas/Cypress            | 
-|5  |     5          |                  |X        |    | | PruebasAutomatizadas/Cypress            | 
+| N/A                  |26       |        X         |        |    |X | PruebasAutomatizadas/monkey-cypress/cypress/integration/monkey            |  
+| N/A                  |27        |        X         |        |    |X | PruebasAutomatizadas/RIPuppet            |  
+|4  | 1               |                  | X       |    |X |PruebasAutomatizadas/Cypress             | 
+|1  |  2             |                  |X        |    | X|PruebasAutomatizadas/Cypress             | 
+| 1 |   3            |                  | X       |    | X|PruebasAutomatizadas/Cypress             | 
+|2  |    4          |                  | X       |    |X | PruebasAutomatizadas/Cypress            | 
+|5  |     5          |                  |X        |    |X | PruebasAutomatizadas/Cypress            | 
 | 2 |6                |                  |X       |    |X |PruebasAutomatizadas/Cypress             |
 | 2 |7                |                  |X       |    |X |PruebasAutomatizadas/Cypress             |
 | 2 |8                |                  |X       |    |X |PruebasAutomatizadas/Cypress             |
 | 2 |9                |                  |X       |    |X |PruebasAutomatizadas/Cypress             |
 | 2 |10               |                  |X       |    |X |PruebasAutomatizadas/Cypress             |
-| 3 |11                |                  |X       |    | |PruebasAutomatizadas/Cypress             |
-| 3 |12                |                  |X       |    | |PruebasAutomatizadas/Cypress             |
-| 3 |13                |                  |X       |    | |PruebasAutomatizadas/Cypress             |
-| 3 |14                |                  |X       |    | |PruebasAutomatizadas/Cypress             |
-| 3 |15               |                  |X       |    | |PruebasAutomatizadas/Cypress             |
-|1  |16  |                  |  X      |     |             | PruebasAutomatizadas/Cypress|
-| 1 |17                 |                  |X        |    | |PruebasAutomatizadas/Cypress             | 
-| 2 |18                |                  |X       |    | |PruebasAutomatizadas/Cypress             | 
+| 3 |11                |                  |X       |    |X |PruebasAutomatizadas/Cypress             |
+| 3 |12                |                  |X       |    |X |PruebasAutomatizadas/Cypress             |
+| 3 |13                |                  |X       |    |X |PruebasAutomatizadas/Cypress             |
+| 3 |14                |                  |X       |    |X |PruebasAutomatizadas/Cypress             |
+| 3 |15               |                  |X       |    |X |PruebasAutomatizadas/Cypress             |
+|1  |16  |                  |  X      |     |            X | PruebasAutomatizadas/Cypress|
+| 1 |17                 |                  |X        |  X  | |PruebasAutomatizadas/Cypress             | 
+| 2 |18                |                  |X       |    |X |PruebasAutomatizadas/Cypress             | 
 |2 | 19 |                  |  X      |   |  |PruebasAutomatizadas/Cypress             | 
-| 1 |20                 |                  |X        |   |  | PruebasAutomatizadas/Cypress            | 
-| 5 |21               |                  | X       |   |  |PruebasAutomatizadas/Cypress             | 
-| 7 |22               |                  | X       |     X||PruebasAutomatizadas/Cypress y PruebasAutomatizadas/regressionReportBackstop| 
-| 5 |23              |                  | X       |     | |PruebasAutomatizadas/Cypress             | 
-| 5 |24               |                  | X       |     | | PruebasAutomatizadas/Cypress             | 
-| 3 |25               |                  | X       |     | | PruebasAutomatizadas/Cypress            | 
+| 1 |20                 |                  |X        |   |X  | PruebasAutomatizadas/Cypress            | 
+| 5 |21               |                  | X       |   |  X|PruebasAutomatizadas/Cypress             | 
+| 7 |22               |                  | X       |     X|X|PruebasAutomatizadas/Cypress y PruebasAutomatizadas/regressionReportBackstop| 
+| 5 |23              |                  | X       |     |X |PruebasAutomatizadas/Cypress             | 
+| 5 |24               |                  | X       |     |X | PruebasAutomatizadas/Cypress             | 
+| 3 |25               |                  | X       |     | X| PruebasAutomatizadas/Cypress            | 
 
 
 ## Indicaciones para las pruebas exploratorias
