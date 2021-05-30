@@ -74,7 +74,7 @@ La url del video que consolida la estrategia de pruebas es la siguiente: https:/
 | 3 |13                |                  |X       |    | |PruebasAutomatizadas/Cypress             |
 | 3 |14                |                  |X       |    | |PruebasAutomatizadas/Cypress             |
 | 3 |15               |                  |X       |    | |PruebasAutomatizadas/Cypress             |
-|1  |16  |                  |  X      |     | PruebasAutomatizadas/Cypress            | 
+|1  |16  |                  |  X      |     |             | PruebasAutomatizadas/Cypress|
 | 1 |17                 |                  |X        |    | |PruebasAutomatizadas/Cypress             | 
 | 2 |18                |                  |X       |    | |PruebasAutomatizadas/Cypress             | 
 |2 | 19 |                  |  X      |   |  |PruebasAutomatizadas/Cypress             | 
